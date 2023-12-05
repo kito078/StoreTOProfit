@@ -545,13 +545,13 @@ const About = () => {
 
 
       {/* Testimonials Area Two start */}
-      <section className="testimonials-area-two pb-115 rpb-85 rel z-1">
+      {/* <section className="testimonials-area-two pb-115 rpb-85 rel z-1">
         <div className="container">
           <TestimonialsSlider />
         </div>
-      </section>
+      </section> */}
       {/* Testimonials Area Two end */}
-      
+
       {/* Partners Area start */}
       <div className="partners-area-three text-center rel z-1 pb-110 rpb-80">
         <div className="container">
