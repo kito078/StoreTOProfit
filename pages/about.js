@@ -12,7 +12,7 @@ const About = () => {
   return (
     <Layout>
       <PageBanner pageName={"About Us"} />
-      <section className="about-area-five py-130 rpt-100 rpb-65 rel z-1">
+      {/* <section className="about-area-five py-130 rpt-100 rpb-65 rel z-1">
         <div className="container">
           <div className="row align-items-center gap-100">
             <div className="col-lg-6">
@@ -29,8 +29,11 @@ const About = () => {
                   alt="Shape"
                 />
               </div>
-            </div>
-            <div className="col-lg-6">
+            </div> */}
+
+
+
+            {/* <div className="col-lg-6">
               <div className="about-content mt-55 rel z-1 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-60 rmb-40">
                   <span className="sub-title mb-15">About Company</span>
@@ -60,8 +63,8 @@ const About = () => {
                         </a>
                       </Link>
                     </div>
-                  </div>
-                  <div className="col-md-6">
+                  </div> */}
+                  {/* <div className="col-md-6">
                     <div className="service-item style-three">
                       <div className="icon">
                         <i className="flaticon-pie-chart" />
@@ -84,11 +87,13 @@ const About = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          </div> */}
+        {/* </div> 
+         </div> 
+      </section> */}
       {/* About Area end */}
+
+
       {/* Services Area start */}
       <section className="services-area-six pb-100 rpb-70 rel z-1">
         <div className="container">
@@ -145,8 +150,10 @@ const About = () => {
         </div>
       </section>
       {/* Services Area Three end */}
+
+
       {/* Statistics Area start */}
-      <section className="statistics-area-two rel z-2">
+      {/* <section className="statistics-area-two rel z-2">
         <div className="container">
           <div
             className="statistics-inner style-two bgs-cover text-white p-80 pb-20"
@@ -177,8 +184,8 @@ const About = () => {
                         className="count-text plus"
                         data-speed={3000}
                         data-stop={2563}
-                      >
-                        <Counter end={2563} />
+                      > */}
+                        {/* <Counter end={2563} />
                       </span>
                       <span className="counter-title">Project Complate</span>
                     </div>
@@ -203,8 +210,8 @@ const About = () => {
                         className="count-text plus"
                         data-speed={3000}
                         data-stop="35.6"
-                      >
-                        <Counter end={35.6} decimals="1" />
+                      > */}
+                        {/* <Counter end={35.6} decimals="1" />
                       </span>
                       <span className="counter-title">Years Experience</span>
                     </div>
@@ -227,8 +234,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Statistics Area end */}
+
+
       {/* Team Area start */}
       <section className="team-area-two pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
@@ -337,8 +346,11 @@ const About = () => {
         </div>
       </section>
       {/* Team Area end */}
+
+
+
       {/* Why Choose Us Area start */}
-      <section className="why-choose-us-area py-130 rpy-100 rel z-1">
+      {/* <section className="why-choose-us-area py-130 rpy-100 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
@@ -365,8 +377,8 @@ const About = () => {
               <li className="nav-item">
                 <a className="nav-link" data-bs-toggle="tab" href="#wc-tap2">
                   <i className="flaticon-test" /> <span>Apps Development</span>
-                </a>
-              </li>
+                </a> */}
+              {/* </li>
               <li className="nav-item">
                 <a className="nav-link" data-bs-toggle="tab" href="#wc-tap3">
                   <i className="flaticon-cyber-security-1" />{" "}
@@ -378,8 +390,8 @@ const About = () => {
                   <i className="flaticon-support" /> <span>Tech Support</span>
                 </a>
               </li>
-            </ul>
-            <div className="tab-content">
+            </ul> */}
+            {/* <div className="tab-content">
               <div className="tab-pane fade show active" id="wc-tap1">
                 <div className="row gap-90 align-items-center">
                   <div className="col-lg-6">
@@ -414,8 +426,8 @@ const About = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
               <div className="tab-pane fade" id="wc-tap2">
                 <div className="row gap-90 align-items-center">
                   <div className="col-lg-6">
@@ -447,8 +459,8 @@ const About = () => {
                       <img
                         src="assets/images/about/why-choose1.jpg"
                         alt="Why Choose"
-                      />
-                    </div>
+                      /> */}
+                    {/* </div>
                   </div>
                 </div>
               </div>
@@ -479,8 +491,8 @@ const About = () => {
                         <li>Deep Contextual Research and 360° Planning</li>
                         <li>Wireframing &amp; Prototyping</li>
                       </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="theme-btn mt-30">
+                      <Link legacyBehavior href="/about"> */}
+                        {/* <a className="theme-btn mt-30">
                           Learn More <i className="fas fa-long-arrow-right" />
                         </a>
                       </Link>
@@ -513,8 +525,8 @@ const About = () => {
                         </a>
                       </Link>
                     </div>
-                  </div>
-                  <div className="col-lg-6">
+                  </div> */}
+                  {/* <div className="col-lg-6">
                     <div className="why-choose-image rmt-55">
                       <img
                         src="assets/images/about/why-choose1.jpg"
@@ -527,8 +539,11 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>  */}
       {/* Why Choose Us Area end */}
+
+
+
       {/* Testimonials Area Two start */}
       <section className="testimonials-area-two pb-115 rpb-85 rel z-1">
         <div className="container">
@@ -536,6 +551,7 @@ const About = () => {
         </div>
       </section>
       {/* Testimonials Area Two end */}
+      
       {/* Partners Area start */}
       <div className="partners-area-three text-center rel z-1 pb-110 rpb-80">
         <div className="container">
